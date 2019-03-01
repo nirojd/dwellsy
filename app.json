@@ -1,0 +1,6 @@
+{
+	"name": "API",
+	"description": "Dwellsy REST API with Node.js, Restify & MySql",
+	"repository": "https://github.com/rolandltc/dwellsy.git",
+	"keywords": ["API", "Dwellsy", "MySql", "Restify"]
+}

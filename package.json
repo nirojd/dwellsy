@@ -1,27 +1,26 @@
 {
-  "name": "dwellsy",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www",
-    "test": "mocha",
-    "debug": "nodemon --inspect ./bin/www"
-  },
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "ejs": "^2.6.1",
-    "express": "^4.16.4",
-    "express-fileupload": "^1.1.1-alpha.3",
-    "http-errors": "~1.6.2",
-    "morgan": "~1.9.0",
-    "mysql": "^2.16.0",
-    "pug": "2.0.0-beta11",
-    "req-flash": "0.0.3"
-  },
-  "devDependencies": {
-    "mocha": "^5.1.1",
-    "supertest": "^3.0.0"
-  }
+	"name": "dwellsy",
+	"version": "1.0.0",
+	"description": "Starter project for a REST API with Node.js, Restify & MongoDB 🔋",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"engines": {
+		"node": "8.x"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://https://github.com/rolandltc/dwellsy.git"
+	},
+	"keywords": ["API", "Restify"],
+	"author": "Roland Schulz",
+	"license": "UNLICENSED",
+	"dependencies": {
+		"mysql": "2.16.0",
+		"restify": "^6.0.1",
+		"restify-errors": "^5.0.0",
+		"restify-plugins": "^1.6.0"
+	}
 }
