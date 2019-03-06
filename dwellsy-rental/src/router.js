@@ -6,6 +6,8 @@ import Rental from "./views/Rental.vue";
 Vue.use(Router);
 
 export default new Router({
+  history: true,
+  mode: "history",
   routes: [
     {
       path: "/",

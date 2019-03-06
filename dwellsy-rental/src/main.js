@@ -14,6 +14,8 @@ Vue.component("NavBar", require("./components/NavBar.vue").default);
 
 Vue.use(Vuetify);
 
+Vue.store = Vue.prototype.$apiURL = "http://localhost:3000/";
+
 new Vue({
   router,
   store,
