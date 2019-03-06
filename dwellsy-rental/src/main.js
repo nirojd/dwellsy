@@ -7,6 +7,11 @@ import "vuetify/dist/vuetify.min.css";
 
 Vue.config.productionTip = false;
 
+window.axios = require("axios");
+window.axios.defaults.headers.common["Content-Type"] = "application/json";
+
+Vue.component("NavBar", require("./components/NavBar.vue").default);
+
 Vue.use(Vuetify);
 
 new Vue({
