@@ -14,7 +14,10 @@
 		"type": "git",
 		"url": "git+ssh://https://github.com/rolandltc/dwellsy.git"
 	},
-	"keywords": ["API", "Restify"],
+	"keywords": [
+		"API",
+		"Restify"
+	],
 	"author": "Roland Schulz",
 	"license": "UNLICENSED",
 	"dependencies": {
